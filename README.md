@@ -29,6 +29,7 @@ Antes de instalar el sistema, asegúrate de tener los siguientes requisitos:
 - Navegador web moderno
 
 
-1. **Clonar el repositorio**
-   ```bash
-   git clone https://github.com/tuusuario/cafeteria.git
+1. **Enlace al Repositorio**
+   Puedes acceder al repositorio en GitHub utilizando el siguiente enlace:
+   
+   [Repositorio CafeteriaPHP](https://github.com/jhonny1113/CafeteriaPHP.git)
