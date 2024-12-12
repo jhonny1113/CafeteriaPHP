@@ -1,0 +1,44 @@
+C:\xampp\htdocs\Cafeteria\.gitignore
+C:\xampp\htdocs\Cafeteria\.htaccess
+C:\xampp\htdocs\Cafeteria\assets
+C:\xampp\htdocs\Cafeteria\config
+C:\xampp\htdocs\Cafeteria\controllers
+C:\xampp\htdocs\Cafeteria\estructura.txt
+C:\xampp\htdocs\Cafeteria\imagenes
+C:\xampp\htdocs\Cafeteria\includes
+C:\xampp\htdocs\Cafeteria\logs
+C:\xampp\htdocs\Cafeteria\models
+C:\xampp\htdocs\Cafeteria\public
+C:\xampp\htdocs\Cafeteria\README.md
+C:\xampp\htdocs\Cafeteria\uploads
+C:\xampp\htdocs\Cafeteria\views
+C:\xampp\htdocs\Cafeteria\assets\image
+C:\xampp\htdocs\Cafeteria\assets\script.js
+C:\xampp\htdocs\Cafeteria\assets\style-crear.css
+C:\xampp\htdocs\Cafeteria\assets\style-editar.css
+C:\xampp\htdocs\Cafeteria\assets\style-eliminar.css
+C:\xampp\htdocs\Cafeteria\assets\style.css
+C:\xampp\htdocs\Cafeteria\assets\image\cafe-hero.jpg
+C:\xampp\htdocs\Cafeteria\config\config.php
+C:\xampp\htdocs\Cafeteria\config\database.php
+C:\xampp\htdocs\Cafeteria\controllers\productoController.php
+C:\xampp\htdocs\Cafeteria\imagenes\1733946546_fondo.jpg
+C:\xampp\htdocs\Cafeteria\imagenes\1733946585_port.png
+C:\xampp\htdocs\Cafeteria\imagenes\1733947803_image.png
+C:\xampp\htdocs\Cafeteria\imagenes\1733948239_arroz.jpg
+C:\xampp\htdocs\Cafeteria\imagenes\1733949973_pngegg.png
+C:\xampp\htdocs\Cafeteria\imagenes\1733951519_pngegg (2).png
+C:\xampp\htdocs\Cafeteria\imagenes\1733951686_pngegg (3).png
+C:\xampp\htdocs\Cafeteria\imagenes\1733951851_pngegg (4).png
+C:\xampp\htdocs\Cafeteria\imagenes\1733956243_pngegg (5).png
+C:\xampp\htdocs\Cafeteria\imagenes\limon.png
+C:\xampp\htdocs\Cafeteria\includes\footer.php
+C:\xampp\htdocs\Cafeteria\includes\header.php
+C:\xampp\htdocs\Cafeteria\models\Producto.php
+C:\xampp\htdocs\Cafeteria\public\info.php
+C:\xampp\htdocs\Cafeteria\public\listar_productos.php
+C:\xampp\htdocs\Cafeteria\public\venta.php
+C:\xampp\htdocs\Cafeteria\views\crear.php
+C:\xampp\htdocs\Cafeteria\views\editar.php
+C:\xampp\htdocs\Cafeteria\views\eliminar.php
+C:\xampp\htdocs\Cafeteria\views\index.php
