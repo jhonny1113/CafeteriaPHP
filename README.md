@@ -39,7 +39,47 @@ Copia la carpeta del proyecto en la carpeta htdocs de tu instalación de XAMPP o
 **Configurar la Base de Datos**
 Abre SQL Server Management Studio (o tu herramienta de gestión de bases de datos preferida).
 Crea una nueva base de datos llamada cafeteria.
+Una vez que hayas creado la base de datos, selecciona Bdatos y ejecuta el siguiente script SQL para crear la tabla productos:
+CREATE TABLE productos (
+    id INT PRIMARY KEY IDENTITY(1,1),
+    nombre_producto VARCHAR(255) NOT NULL,
+    referencia VARCHAR(100),
+    precio DECIMAL(10, 2) NOT NULL,
+    peso DECIMAL(10, 2),
+    categoria VARCHAR(100),
+    stock INT NOT NULL,
+    imagen VARCHAR(255),
+    fecha_creacion DATETIME DEFAULT GETDATE()
+);
+
+**Descripción de la Tabla productos**
+1.id: Identificador único del producto (autoincremental).
+2.nombre_producto: Nombre del producto.
+3.referencia: Referencia del producto.
+4.precio: Precio del producto.
+5.peso: Peso del producto.
+6.categoria: Categoría a la que pertenece el producto.
+7.stock: Cantidad disponible del producto.
+8.imagen: Ruta de la imagen del producto.
+9.fecha_creacion: Fecha de creación del registro.
+
+**Crear la Tabla ventas**
+Después de crear la tabla productos, ejecuta el siguiente script SQL para crear la tabla ventas:
 Importa el archivo SQL que se encuentra en database/cafeteria.sql 
+CREATE TABLE ventas (
+    id INT PRIMARY KEY IDENTITY(1,1),
+    producto_id INT NOT NULL,
+    cantidad_vendida INT NOT NULL,
+    fecha_venta DATETIME DEFAULT GETDATE(),
+    FOREIGN KEY (producto_id) REFERENCES productos(id)
+);
+GO
+
+**Descripción de la Tabla ventas**
+1.id: Identificador único de la venta (autoincremental).
+2.producto_id: ID del producto vendido (clave foránea que referencia a la tabla productos).
+3.cantidad_vendida: Cantidad del producto vendido.
+4.fecha_venta: Fecha de la venta.
 
 **Configurar el Archivo de Configuración**
 Asegúrate de que el archivo config/database.php tenga las credenciales correctas para tu base de datos. Este archivo debe contener la información necesaria para conectarse a la base de datos, como el nombre del servidor, el nombre de la base de datos, el usuario y la contraseña.
